@@ -1,0 +1,106 @@
+.home-main-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-main-bg-container {
+    padding: 40px 20px 0px 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-main-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-inner-bg-container {
+    width: 60%;
+    margin-left: 30px;
+  }
+}
+
+.home-title {
+  margin-top: 0;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  font-size: 26px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-title {
+    font-size: 40px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-title {
+    line-height: 1.5;
+    font-size: 60px;
+  }
+}
+
+.home-title-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  line-height: 1.6;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 576px) {
+  .home-title-description {
+    font-size: 20px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-title-description {
+    line-height: 1.7;
+    font-size: 27px;
+  }
+}
+
+.home-find-jobs-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 7px 15px 7px 15px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 7px;
+  border-width: 0;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .home-find-jobs-button {
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-find-jobs-button {
+    padding: 20px 40px 20px 40px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+}

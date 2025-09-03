@@ -1,0 +1,81 @@
+.navbar-main-bg-container {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 767px) {
+  .navbar-main-bg-container {
+    display: none;
+  }
+}
+
+.header-website-logo {
+  height: 20px;
+  cursor: pointer;
+}
+
+.react-icon {
+  color: #f8fafc;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar-main-bg-container-lg {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .navbar-main-bg-container-lg {
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+.header-website-logo-lg {
+  height: 30px;
+  cursor: pointer;
+}
+
+.home-n-jobs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-n-jobs-options {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.nav-home-n-jobs-link {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logout-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 2px;
+  padding: 6px 30px 6px 30px;
+  border-width: 0;
+  font-weight: 500;
+  cursor: pointer;
+}

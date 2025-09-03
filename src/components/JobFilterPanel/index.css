@@ -1,0 +1,18 @@
+.job-filter-main-bg-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-filter-main-bg-container {
+    width: 30%;
+    max-width: 350px;
+    flex-shrink: 0;
+  }
+}
+
+.separator {
+  color: #64748b;
+  width: 100%;
+}
